@@ -1,2 +1,5 @@
 # pb-compass-git
-Atividades do Módulo git-github do curso: https://cursos.alura.com.br/course/git-github-controle-de-versao
+Atividades do Módulo git-github
+Praticar seus conhecimentos neste repositório:
+Criar branches, fazer commits, merge entre branches, descrever as alterações feitas nas mensagens de commit, etc.
+Enviar o link do seu repositório no GitHub.
