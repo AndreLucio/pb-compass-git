@@ -1,0 +1,153 @@
+body {
+	font-family: sans-serif;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+main {
+	display: block;
+	background-color: #eeeeee;
+}
+
+.container {
+	width: 100%;
+	max-width: 760px;
+	margin: 0 auto;
+	padding: 0% 20px;
+}
+
+section.module p {
+	margin-bottom: 40px;
+}
+
+section.module:last-child {
+	margin-bottom: 0;
+}
+
+section.module content, .versionamento, .frontend {
+	background: #fff;
+	font-size: large;
+	color: rgb(4, 102, 119);
+	padding: 30px 0;
+	margin: 10px 0;
+}
+
+section.module.parallax {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 50vh !important;
+
+}
+
+section.module.parallax-1 {
+
+	background-image: url("../img/banner.jpg");
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: 900;
+	padding: 50px 0;
+	margin: 20px 0; 
+	color: rgb(3, 66, 77);
+}
+
+h2, h3 {
+	font-size: 20px;
+	font-weight: 900;
+	margin: 20px 0; 
+	color: rgb(3, 66, 77);
+}
+
+p {
+	text-align: left;
+	padding: 10px;
+}
+
+em strong {
+	color: #FF0000;
+}
+
+
+
+
+
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #90e0ef;
+	text-decoration: underline;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	padding-left: 20px;
+	margin-right: 10%;
+}
+
+.cursos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.cursos li {
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #03254c;
+	border-radius: 10px;
+}
+
+.cursos li:hover {
+	border-color: #9bcaf0;
+}
+
+.cursos li:active {
+	border-color: #f00a0a;	
+}
+
+.cursos li:hover h3 {
+	font-size: 24px;
+}
+
+footer {
+	text-align: center;
+	align-items : center;
+	background: #aaaaaa;
+	padding: 15px;
+}
