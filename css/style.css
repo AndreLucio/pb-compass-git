@@ -14,7 +14,7 @@ main {
 	background-color: #eeeeee;
 }
 
-.container {
+.container, .f-flexbox, .jogos, .js-table  {
 	width: 100%;
 	max-width: 760px;
 	margin: 0 auto;
@@ -29,7 +29,7 @@ section.module:last-child {
 	margin-bottom: 0;
 }
 
-section.module content, .versionamento, .frontend {
+section.module content {
 	background: #fff;
 	font-size: large;
 	color: rgb(4, 102, 119);
@@ -70,6 +70,12 @@ h2, h3 {
 	color: rgb(3, 66, 77);
 }
 
+h2 {
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+
 p {
 	text-align: left;
 	padding: 10px;
@@ -78,10 +84,6 @@ p {
 em strong {
 	color: #FF0000;
 }
-
-
-
-
 
 
 nav {
@@ -115,7 +117,7 @@ ul {
 	margin-right: 10%;
 }
 
-.cursos {
+.cursos, .jogos {
 	width: 940px;
 	margin: 0 auto;
 	padding: 50px 0;
@@ -144,6 +146,161 @@ ul {
 .cursos li:hover h3 {
 	font-size: 24px;
 }
+
+.container-logo {
+	display: flex;
+	padding-bottom: 40px;
+	justify-content: center;
+	align-items: center;
+	size: 50%;
+}
+
+.m-flexbox {
+	background-color: goldenrod;
+}
+
+.f-flexbox, .jogos {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.e-flexbox, .d-flexbox, .froggy, .defense {
+	flex-direction: column;
+	padding: 30px 10px;
+}
+
+.d-flexbox {
+	justify-content: end;
+}
+
+.t-flexbox {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 40%;
+}
+
+#flexlogo {
+	width: 70%;
+}
+
+#img-froggy, #img-defense {
+	width: 100%;
+}
+
+.m-javascript {
+	background-image: url("../img/fundo.jpg");
+	background-repeat: no-repeat;
+	height: 50%;
+	width: auto;
+	padding: 30px 10px;
+	color: #9bcaf0;
+}
+
+#p-javascript, #h2-js, #h3-js {
+	color: #9bcaf0;
+	padding: 30px 0;
+}
+
+.js-table {
+	padding: 60px 0;
+}
+
+#imc {
+	color: rgb(3, 66, 77);
+	background-color: #eeeeee;
+	width: 100%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #03254c;
+	border-radius: 10px;
+}
+
+table{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+
+}
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+th{
+	font-weight: bold;
+	background-color: #EEE;
+}
+
+label{
+	color: #555;
+	display: block;
+	margin-bottom: .2em;
+}
+
+.campo{
+	margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: .7em;
+	width: 100%;
+}
+
+.campo-medio{
+	display: inline-block;
+	padding-right: .5em;
+}
+
+.grupo{
+	width: 32%;
+	display: inline-block;
+	padding: 10px 0px;
+}
+
+button{
+	padding: .5em 2em;
+	border: 0;
+	border-bottom: 3px solid;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin: 0;
+	margin-top: -3px;
+	color: #fff;
+	background-color:#0c8cd3;
+	border-color: #04324c;
+	width: 20%;
+    display: block;
+    clear: both;
+    margin: 10px 0px;
+
+}
+
+button:active{
+	margin-top:0px;
+	border: 0;
+}
+
+button[disabled=disabled], button:disabled {
+    background-color: gray;
+	border-color: darkgray;
+
+}
+
+.adicionar-paciente{
+    margin-top: 30px;
+}
+
+.campo-invalido{
+	border: 1px solid red;
+}
+
 
 footer {
 	text-align: center;
