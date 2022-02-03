@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
         <link rel="stylesheet" type="text/css" href="css/reset.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <title>Cursos da Alura - Compass UOL</title>
+        <title>Trilha React.js - Compass UOL</title>
     </head>
     <body>
         <div class="wrapper">
             <main>
                 <section class="module parallax parallax-1">
                 </section>
-
                 <section class="module content">
                     <div class="container"> 
                         <h1>Treinamento Alura - Trilha React Compass UOL</h1>
-                        <p>Olá! Sou o André Lúcio de Oliveira, futuro desenvolverdor full-stack e graduando do curso de Sistemas de Informação no UniAcademia-Juiz de Fora-MG.</p>
-                        <p>Este trabalho apresenta as funcionalidades requeridas nos <em><strong>módulos de aprendizado da trilha React.JS</strong></em>.</p>
+                        <p>Olá! Sou o André Lúcio de Oliveira, futuro desenvolverdor full-stack e graduando do curso de Sistemas de Informação no Centro Universitário UniAcademia-Juiz de Fora-MG.</p>
+                        <p>Este trabalho apresenta um sumário das funcionalidades requeridas nos <em><strong>módulos de aprendizado da trilha React.JS.</strong></em>.</p>
+                        <P>Qualquer dúvida é só chamar pelo whatsapp.</P>
+                        <div class="container-logo">
+                            <img id="reactjs" src="img/reactjs.svg">
+                        </div>
                     </div>
-                </section>
-                
-                <section class="versionamento">
+                </section> 
+                <section class="m-versionamento">
                     <div class="container">
                         <h2>ATIVIDADES DO MÓDULO GIT-GITHUB CONTROLE DE VERSAO</h2>
-                        <p>Foram criadas branches, realizados diversos commits, merge entre branches, descrições das alterações feitas nas mensagens de commit semântico, etc.</p>
+                        <p>Foram criadas quatro branches no repositório: AndreLucio-patch-1, AndreLucio-patch-2 e AndreLucio-config e develop</p>
+                        <p>Realizados diversos commits e merges entre as branches para a branch principal (main),</p>
+                        <p>As descrições das alterações feitas seguem o padrão de commit semântico.</p>
                         <ul class="cursos">  
                             <li>
                                 <h3>GIT</h3>
@@ -38,25 +43,82 @@
                     </div>
                 </section>  
 
-                <section class="frontend">
+                <section class="m-frontend">
                     <div class="container">
                         <h2>ATIVIDADES DO MÓDULO HTML E CSS3</h2>
                         <p>Os estilos usados no css se inspiram nos tópicos apresentados nas unidades 1 e 2 do curso da Alura.</p>
-                        <p>Foi adicionado um efeito de "Paralaxe" na página.</p>
+                        <p>Elementos html e css reproduzem o layout da barbearia alura</p>
+                        <p>Adicionado o arquivo reset.css</p>
                         <ul class="cursos">  
                             <li>
                                 <h3>HTML-5</h3>
                                 <img id="html-5" src="img/html-5.svg">
+
                             </li>
                             <li>
                                 <h3>CSS-3</h3>
                                 <img id="CSS-3" src="img/CSS3.svg">
                             </li>
-                            <li>
-                                <h3>JAVASCRIPT</h3>
-                                <img id="javascript" src="img/javascript.svg">
-                            </li>
                         </ul>
+                    </div>
+                </section>
+
+                <section class="m-flexbox">
+                    <div class="f-flexbox">
+                        <div class="e-flexbox">
+                            <h2>ATIVIDADES DO MÓDULO FLEXBOX</h2>
+                            <img id="flexlogo" src="img/flexbox.png">
+                        </div>
+                        <div class="d-flexbox">
+                            <div class="t-flexbox">
+                                <p>São explorados os conceitos de Flexbox e Flex Item.</p>
+                                <p>As divs são emparelhadas com "flex-direction: row"</p>
+                                <p>Foi adicionado um efeito de "Paralaxe" na página.</p>
+                                <p>Screenshots da conclusão dos respectivos jogos.</p>
+                                <p>Aguardando aquela estrelinha prometida na nota...</p>
+                                <p>✬ ✬ ✬ ✬ ✬</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jogos">
+                        <div class="froggy">  
+                            <h2>FLEXBOX FROGGY</h2>
+                            <img id="img-froggy" src="img/flexbox-froggy.png">
+                        </div>
+                        <div class="defense">
+                            <h2>FLEXBOX DEFENSE</h2>
+                            <img id="img-defense" src="img/flexbox-defense.png">
+                        </div>
+                    </div>
+                </section>
+
+                <section class="m-javascript">
+                    <div class="container" id="p-javascript">
+                        <h2 id="h2-js">ATIVIDADES DO MÓDULO JAVASCRIPT</h2>
+                        <p>Reproduzida a mesma tabela para cálculo de IMC apresentada no curso de JavaScript Alura</p>
+                    </div>
+                    <div class="js-table">
+                            <h3 id="h3-js">Calculadora de IMC</h3>
+                            <table id="imc">
+                                <thead>
+                                    <tr>
+                                        <th>Peso(kg)</th>
+                                        <th>Altura(m)</th>
+                                        <th>Gordura Corporal(%)</th>
+                                        <th>IMC</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tabela-pacientes">
+                                    <tr class="paciente" id="1">
+                                        <td class="info-peso">98</td>
+                                        <td class="info-altura">1.81</td>
+                                        <td class="info-gordura">20</td>
+                                        <td class="info-imc">0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+            
+                        </section>
                     </div>
                 </section>
             </main>
@@ -68,5 +130,7 @@
                 </div>
             </footer>
         </div>
+        <script src="js/script.js"></script>
     </body>
 </html>
+
